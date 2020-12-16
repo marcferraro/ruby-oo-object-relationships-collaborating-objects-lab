@@ -6,4 +6,9 @@ class MP3Importer
     end
 
     attr_reader :path
+
+    def files
+        binding.pry
+        #@files = 
+    end
 end
